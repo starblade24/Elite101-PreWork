@@ -110,3 +110,28 @@ ignoredPackages = ["unit_tests"]
 # for Python repos imported from GitHub
 [gitHubImport]
 requiredFiles = [".replit", "replit.nix", ".config", "venv"]
+
+----------------------------------------------------------------------------------------------------
+name = input("Hi what's your name, if you don't mind me asking? ")
+
+print(f'Hello {name} Im a chat bot made by Larry Banks for Elite 101')
+
+def topicChoice():
+  topic = input("How could I help you today ")
+  topic
+  if topic == ("I had a bad day today"):
+    print("That's sad BUT don't get too sad a diamond is made from presure")
+  if topic == ("How do I talk to girls :("):
+    print(":> That's a topic for another day young padawan, a very long conversaiton")
+  if topic == ("Im broke and need guidance"):
+    print("Get a job ~(- -)~")
+  if topic == ("Goodbye"):
+    print("bye bye")
+  else:
+    print("------------------------------------------------")
+    print("Please type 'I had a bad day today'")
+    print("'How do I talk to girls :('")
+    print("or 'Im broke and need guidance'")
+    print("'Goodbye'")
+
+topicChoice()
